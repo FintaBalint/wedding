@@ -1,0 +1,163 @@
+/* Meyer CSS Reset */
+
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Border Box Modell */
+
+* {
+    box-sizing: border-box;
+}
+
+/* Vertical Margin Declaration */
+
+h1,h2,h3,
+ul,ol,
+p,
+img {
+    margin-bottom: 1.5rem;
+}
+
+.locations,
+.program,
+.gifts,
+.faq,
+.contact {
+    width: 95%;
+    margin: 1,5rem auto;
+    padding: .5rem 1rem;
+    text-align: center;
+}
+
+body {
+    background: url('https://orange.codeberryschool.com/content/images/project-assets/wedding-landing-background.png') repeat center;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.125rem;
+    line-height: 1.5;
+    color: #444349;
+}
+
+h1,
+h2 {
+    font-family: 'Great Vibes', cursive;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 1,5rem;
+}
+
+a {
+    text-decoration: none;
+    color: #bd806e;
+}
+
+a:hover {
+    color: #eda087;
+    transition: color .15s ease-in-out;
+}
+
+/* Header Styles */
+
+.cover {
+    background: url(assets/wedding-landing-cover.jpg) no-repeat 70%center/cover;
+    display: table;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.hero-text-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.hero-text {
+    margin: 0 auto;
+    padding: .625rem;
+    color: hsla(0,0%,100%,.9);
+    background: hsla(100,0%,0%,.5);
+}
+
+.hero-text h1 {
+    font-size: 3.15rem;
+    color: #d2ba87;
+    margin-bottom: 0;
+}
+
+.tagline {
+    font-size: 1.5rem;
+    letter-spacing: .15rem;
+}
+
+.tagline::after {
+    display: block;
+    content: "";
+    background-color: #fff;
+    height: 1px;
+    width: 12.515625rem;
+    margin: .5rem auto;
+}
+
+.date {
+    font-size: 1,25rem;
+    letter-spacing: .15rem;
+    vertical-align: middle;
+}
+
+.date::before,
+.date::after {
+    display: inline-block;
+    content: "";
+    background-color: #fff;
+    height: 1px;
+    width: 1.5rem;
+    vertical-align: middle;
+    margin:0 .5rem;
+}
